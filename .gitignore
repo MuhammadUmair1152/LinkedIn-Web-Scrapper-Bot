@@ -1,13 +1,28 @@
-# Virtual environment directory
-venv/
-.env/ 
-env/
-.env
-env
-# Python bytecode
-__pycache__/
+# Python bytecode files
 *.pyc
+*.pyo
+*.pyd
+__pycache__/
 
-# IDE configurations
+# Django-specific
+*.log
+*.sqlite3
+db.sqlite3
+media/
+staticfiles/
+env/
+venv/
+*.env
+
+# IDE/editor specific files
 .vscode/
 .idea/
+*.swp
+*.swo
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Selenium WebDriver
+chromedriver*
