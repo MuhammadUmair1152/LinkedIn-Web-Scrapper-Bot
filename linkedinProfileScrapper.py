@@ -5,7 +5,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 # LinkedIn profile URL (the profile you want to scrape)
-profile_url = "https://www.linkedin.com/in/muhammad-ukasha-8211ba242/"  # add any linkedin's profile link
+profile_url = input("Enter the profile url : ")  # add any linkedin's profile link
 
 # Path to ChromeDriver executable
 chrome_driver_path = r"E:/chromedriver-win64/chromedriver-win64/chromedriver.exe"  #location of the chrome driver 
