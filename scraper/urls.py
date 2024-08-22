@@ -1,6 +1,6 @@
 from django.urls import path
-from .views import scrape_profile
+from .views import scrape_user_profile
 
 urlpatterns = [
-    path('scrape/', scrape_profile, name='scrape_profile'),
+    path('scrape/user/', scrape_user_profile, name='scrape_user_profile'),
 ]
